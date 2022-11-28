@@ -1,7 +1,7 @@
 //execute: node src/wt/main
 import { Worker } from 'worker_threads';
 import * as os from 'os';
-import path, { resolve } from 'path';
+import path from 'path';
 
 export const performCalculations = async () => {
     let answer = [];

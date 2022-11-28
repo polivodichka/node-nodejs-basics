@@ -4,13 +4,32 @@
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node src/fs/create",
+    "copy": "node src/fs/copy",
+    "rename": "node src/fs/rename",
+    "delete": "node src/fs/delete",
+    "list": "node src/fs/list",
+    "read": "node src/fs/read",
+    "args": "node src/cli/args",
+    "env": "node src/cli/env",
+    "calcHash": "node src/hash/calcHash",
+    "readstr": "node src/streams/read",
+    "transformstr": "node src/streams/transform",
+    "writestr": "node src/streams/write",
+    "compress": "node src/zip/compress",
+    "decompress": "node src/zip/decompress",
+    "wt": "node src/wt/main"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlreadyBored/node-nodejs-basics.git"
   },
-  "keywords": ["nodejs", "assignments", "alreadybored"],
+  "keywords": [
+    "nodejs",
+    "assignments",
+    "alreadybored"
+  ],
   "author": "alreadybored",
   "license": "ISC",
   "bugs": {
