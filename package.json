@@ -18,7 +18,8 @@
     "writestr": "node src/streams/write",
     "compress": "node src/zip/compress",
     "decompress": "node src/zip/decompress",
-    "wt": "node src/wt/main"
+    "wt": "node src/wt/main",
+    "cp": "node src/cp/cp"
   },
   "repository": {
     "type": "git",
