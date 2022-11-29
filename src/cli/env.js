@@ -1,4 +1,4 @@
-//execute: $env:RSS_param1=124; $env:RSS_param2='Hello'; node src\cli\env
+//execute: $env:RSS_param1=124; $env:RSS_param2='Hello'; npm run env
 export const parseEnv = () => {
     let answer = [];
 

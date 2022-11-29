@@ -1,4 +1,4 @@
-//execute: node src/streams/read
+//execute: npm run readstr
 import fs from 'fs';
 import path from 'path';
 

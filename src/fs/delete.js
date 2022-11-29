@@ -1,4 +1,4 @@
-//execute: node src/fs/delete
+//execute: npm run delete
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';

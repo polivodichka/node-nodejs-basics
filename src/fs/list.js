@@ -1,4 +1,4 @@
-//execute: node src/fs/list
+//execute: npm run list
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';

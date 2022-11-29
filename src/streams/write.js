@@ -1,4 +1,4 @@
-//execute: node src/streams/write
+//execute: npm run writestr
 import fs from 'fs';
 import path from 'path';
 import { pipeline } from 'stream';

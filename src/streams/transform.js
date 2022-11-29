@@ -1,4 +1,4 @@
-//execute: node src/streams/transform
+//execute: npm ru transform
 import { Transform, pipeline } from 'stream';
 
 export const transform = async () => {

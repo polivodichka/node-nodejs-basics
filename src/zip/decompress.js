@@ -1,4 +1,4 @@
-//execute: node src/zip/decompress
+//execute: npm run decompress
 import fs from 'fs';
 import path from 'path';
 import zlib from 'zlib';

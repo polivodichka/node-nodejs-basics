@@ -1,4 +1,4 @@
-//execute: node src/hash/calcHash
+//execute: npm run hash
 import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';

@@ -1,4 +1,4 @@
-//execute: node src/fs/read
+//execute: npm run read
 import fs from 'fs';
 import path from 'path';
 

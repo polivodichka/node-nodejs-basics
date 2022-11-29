@@ -1,4 +1,4 @@
-//execute: node src/wt/main
+//execute: npm run wt
 import { Worker } from 'worker_threads';
 import * as os from 'os';
 import path from 'path';

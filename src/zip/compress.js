@@ -1,4 +1,4 @@
-//execute: node src/zip/compress
+//execute: npm run compress
 import fs from 'fs';
 import path from 'path';
 import zlib from 'zlib';
