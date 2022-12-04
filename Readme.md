@@ -1,5 +1,5 @@
-1. [node-nodejs-basics](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
-2. [Deploy](https://github.com/polivodichka/nodejs-basics )
+1. [Task](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
+2. [Repo](https://github.com/polivodichka/nodejs-basics )
 3. Deadline 06.12.2022
 4. Score 206/206
 
