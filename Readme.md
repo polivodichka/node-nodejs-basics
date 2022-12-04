@@ -3,7 +3,7 @@
 3. Deadline 06.12.2022
 4. Score 206/206
 
- - [x] File system (src/fs)__
+ - [x] File system (src/fs)\
 +6 create.js implemented properly__
 +10 copy.js implemented properly__
 +10 rename.js implemented properly__
