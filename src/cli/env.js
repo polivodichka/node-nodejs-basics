@@ -1,11 +1,11 @@
 //execute: $env:RSS_param1=124; $env:RSS_param2='Hello'; npm run env
 export const parseEnv = () => {
-    let answer = [];
+  let answer = [];
 
-    for (let env in process.env){
-        if (env.match(/RSS_\w*/)) answer.push(`${env}=${process.env[env]}`);
-    }
-    console.log(answer.join('; '));
+  for (let env in process.env) {
+    if (env.match(/RSS_\w*/)) answer.push(`${env}=${process.env[env]}`);
+  }
+  console.log(answer.join("; "));
 };
 
 parseEnv();

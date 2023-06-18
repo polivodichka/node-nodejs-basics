@@ -10,7 +10,6 @@
     "delete": "node src/fs/delete",
     "list": "node src/fs/list",
     "read": "node src/fs/read",
-    "args": "node src/cli/args",
     "env": "node src/cli/env",
     "hash": "node src/hash/calcHash",
     "readstr": "node src/streams/read",
