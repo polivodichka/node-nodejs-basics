@@ -2,7 +2,7 @@ import fsPromises from "fs/promises";
 import { exit } from "process";
 import path from "path";
 
-//execute: npm run create
+//execute: npm run fs:create
 const freshPath = path.resolve(
   path.dirname(""),
   "src",

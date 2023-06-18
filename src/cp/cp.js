@@ -1,6 +1,7 @@
-//execute: npm run cp
-import path from 'path';
 import { spawn } from 'child_process';
+import path from 'path';
+
+//execute: npm run cp
 
 const scriptPath = path.resolve(path.dirname(''), 'src', 'cp', 'files', 'script.js');
 

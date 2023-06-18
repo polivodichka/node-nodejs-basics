@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs";
 
-//execute: npm run read
+//execute: npm run fs:read
 
 const toRead = path.resolve(
   path.dirname(""),

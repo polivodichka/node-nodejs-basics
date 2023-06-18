@@ -2,7 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import fs from "fs";
 
-//execute: npm run list
+//execute: npm run fs:list
 
 const folder = path.resolve(path.dirname(""), "src", "fs", "files");
 

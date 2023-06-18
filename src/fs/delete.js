@@ -2,7 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import fs from "fs";
 
-//execute: npm run delete
+//execute: npm run fs:delete
 
 const filePath = path.resolve(
   path.dirname(""),

@@ -2,7 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import fs from "fs";
 
-//execute: npm run rename
+//execute: npm run fs:rename
 
 const oldPath = path.resolve(
   path.dirname(""),

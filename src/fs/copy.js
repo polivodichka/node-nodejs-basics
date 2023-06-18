@@ -2,7 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import fs from "fs";
 
-//execute: npm run copy
+//execute: npm run fs:copy
 
 const from = path.resolve(path.dirname(""), "src", "fs", "files");
 const to = path.resolve(path.dirname(""), "src", "fs", "files_copy");

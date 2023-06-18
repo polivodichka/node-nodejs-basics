@@ -1,18 +1,30 @@
-//execute: npm run decompress
-import fs from 'fs';
-import path from 'path';
-import zlib from 'zlib';
-import { pipeline } from 'stream';
+import path from "path";
+import zlib from "zlib";
+import fs from "fs";
 
-const toWrite = path.resolve(path.dirname(''), 'src', 'zip', 'files', 'fileToCompress.txt');
-const toRead = path.resolve(path.dirname(''), 'src', 'zip', 'files', 'archive.gz');
+//execute: npm run zip:decompress
+
+const toWrite = path.resolve(
+  path.dirname(""),
+  "src",
+  "zip",
+  "files",
+  "fileToCompress.txt"
+);
+const toRead = path.resolve(
+  path.dirname(""),
+  "src",
+  "zip",
+  "files",
+  "archive.gz"
+);
 
 export const decompress = async () => {
-    const input = fs.createReadStream(toRead);
-    const output = fs.createWriteStream(toWrite);
-    const unzip = zlib.createUnzip(); 
+  const input = fs.createReadStream(toRead);
+  const output = fs.createWriteStream(toWrite);
+  const unzip = zlib.createUnzip();
 
-    input.pipe(unzip).pipe(output);
+  input.pipe(unzip).pipe(output);
 };
 
 decompress();
