@@ -1,6 +1,6 @@
 1. [Task](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
 2. [Repo](https://github.com/polivodichka/nodejs-basics )
-3. Deadline 06.12.2022
+3. Deadline 20.06.2023
 4. Score 206/206
 
  - [x] File system (src/fs)\
